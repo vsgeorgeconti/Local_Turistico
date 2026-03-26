@@ -59,23 +59,19 @@ p.description {
 
 #information img {
   width: 100%;
+  height: 350px;
   border-radius: 28px;
   display: block;
   margin-bottom: 20px;
   margin-top: 48px;
-}
-
-p.content {
-  font-size: 16px;
-  line-height: 1.6;
-  max-width: 1120px;
-  font-weight: 500;
-  color: #333333;
+  object-fit: cover;
 }
 
 ol{
   margin: 0 auto;
   margin-top: 64px;
+  padding-left: 0;
+  list-style-position: inside;
 }
 
 ol li{
@@ -84,20 +80,20 @@ ol li{
   font-weight: bold;
   margin-bottom: 10px;
   color: #1b1b1b;
-  margin-left: 40px;
+}
+
+
+ol li p{
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 1120px;
+  font-weight: 500;
+  color: #333333;
 }
 
 ol li::marker {
   font-weight: bold;
   color: #1b1b1b;
-}
-
-ol li h3{
-  font-size: 28px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: #1b1b1b;
-  margin-left: 10px;
 }
 
 .strong{
